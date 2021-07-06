@@ -1,0 +1,305 @@
+/* Global Css */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+	padding: 0;
+}
+
+h2{
+    font-size: 40px;
+   font-weight: 600;
+   
+}
+h1{
+   font-size: 50px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   line-height: 41px;
+}
+/* Header Star  */
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+}
+header h1{
+    position: absolute;
+    padding: 3px;
+    float:left;
+    margin-left: 2%;
+    margin-top: 10px;
+    margin-left: -20px;
+    color: rgb(6, 6, 99);
+    font-size: 30px;
+}
+
+header ul{
+    width: auto;
+    float:right;
+    margin-top: 8px;
+}
+header li{
+    display: inline-block;
+    padding: 15px 25px;
+}
+
+header a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Introduction section start */
+.half-side{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 7%;
+    padding-top: 50px;
+}
+
+.half-side1{
+width: 40%;
+float: left;
+margin-left: 1%;
+padding-left: 5%;
+}
+.introduction-secton .half-side1 img{
+width: 90%;
+}
+.font-highlight{
+    color:  orange;
+}
+
+.link-button{
+    text-decoration: none;
+    background-color: rgb(248, 118, 95);
+    padding: 15px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.link-button:hover{
+    background: transparent;
+    border: 2px solid#F46060;
+    color: black;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.introduction-secton{
+    height: 500px;
+    margin-bottom: 10px;
+    padding-top: 30px;  
+}
+
+.introduction-secton h1{
+   font-size: 60px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   line-height: 20px;
+   color: #696969
+}
+.half-side p{
+    padding: 0px 2px 15px 0px;
+    color: gray;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Biography section start here*/
+.biography-section{
+    margin-top: 120px;
+    height: 600px; 
+    background: url(./images/shapes/7.png);
+   }
+   .biography-section .half-side{
+       width: 40%;
+       float: left;
+       margin-left: 1%;
+       padding-left: 3%;
+   }
+   .biography-section .half-side1{
+       width: 40%;
+       float: left;
+       margin-left: 3%;
+       padding-left: 7%;
+   }
+   .biography{
+       padding-top: 50px;
+   }
+   .biography-section .half-side1 img{
+       width: 57%;
+       height: 560px;
+       margin-top: 20px;
+   }
+
+   .biography-section h1{
+    color:#808080;
+    font-size: 40px;
+   }
+
+   .biography-section p{
+    padding: 0px 2px 15px 0px;
+    color:black;
+    font-weight: 400;
+    font-size: 18px;
+    width: 85%;
+    line-height: 30px;
+}
+
+ /* Working Section Start */
+ .food-section h2{
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: 500;
+   }
+   .food-category{
+    width: 30%;
+    float: left;
+    margin: 10px;
+    box-shadow: 1px 1px 3px gray;
+    border-radius: 10px;
+    background-color: #fff;
+   }
+   .food-category img{
+     width: 90%;
+     display: block;
+     margin: 0 auto;
+     padding-top: 20px;
+   }
+   .food-item{
+       padding-left: 80px;
+   }
+   .food-section{
+    background-color: #f8f9fc;
+    padding:30px 0px 80px 0px;
+    float: left;
+   }
+   .food-category h3{
+       padding-left: 25px;
+      font-size: 25px;
+    margin-bottom: -5px;
+   }
+   .food-category p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+   
+   .sub-title {
+    width: 50%;
+    display: block;
+    margin: 0 auto;;
+    color:rgb(109, 109, 109);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+   }
+
+   /*-- Contact Us Section Start --*/
+.contact-us-section{
+	background: url(./images/Stay-back.png);
+	padding: 55px 0px 50px 0px ;
+	width: 100%;
+	float: left;
+}
+.contact h2{
+	font-size: 40px;
+	text-align: center;
+	font-weight: 500;
+	color: #fff;
+}
+.contact p{
+	text-align: center;
+	color: #7c7e82;
+	margin-top: 22px;
+}
+.contact-form{
+	text-align: center;
+}
+.contact-form .name{
+	background: transparent;
+	border: 1px solid #999999;
+	margin-top: 51px;
+	border-radius: 3px;
+	width: 438px;
+	height: 62px;
+	padding-left: 18px;
+}
+.contact-form .email{
+	background: transparent;
+	margin: 22px 0px;
+	border: 1px solid #999999;
+	border-radius: 3px;
+	width: 438px;
+	height: 62px;
+	padding-left: 18px;
+}
+.contact-form .message{
+	background: transparent;
+	border: 1px solid #999999;
+	color: #999999;
+	border-radius: 3px;
+	width: 438px;
+	height: 120px;
+	padding-left: 18px;
+}
+.checkbox{
+	color: #fff;
+	padding-top: 20px;
+	
+}
+.contact-form .btn{
+	background: transparent;
+	border: 1px solid #15a4fa;
+	height: 40px;
+	width: 120px;
+	color: #fff;
+	text-align: center;
+	margin-left: 150px;
+	transition: 0.4s ease-in-out;
+}
+.contact-form .btn:hover{
+	background: #15a4fa;
+	cursor: pointer;
+}
+
+
+    /* Footer section start*/
+
+    .container{
+        width: 1140px;
+        margin: 0 auto;
+    }
+    footer{
+        background-color: black;
+        width: 100%;
+        float: left;
+        padding-top: 20px;
+        clear: both;
+    }
+    footer p, h2{
+        text-align: center;
+    }
+    
+   
+    .footer-left p{
+        padding-left: 8px;
+        padding-top: -10px;
+        color: rgb(151, 150, 150);
+    }
+
+    .footer-left h2{
+        color:#727171;
+        font-size: 40px; 
+        font-weight: 400;
+    }
+    #name-highlight{
+        color: orange;
+    }
